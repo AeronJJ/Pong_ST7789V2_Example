@@ -1,0 +1,3 @@
+[submodule "ST7789V2_Driver_STM32L4"]
+	path = ST7789V2_Driver_STM32L4
+	url = https://github.com/AeronJJ/ST7789V2_Driver_STM32L4
