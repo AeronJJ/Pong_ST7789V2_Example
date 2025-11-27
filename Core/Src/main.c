@@ -111,19 +111,9 @@ int main(void)
   LCD_Fill_Buffer(1);
   LCD_Refresh(&cfg0);
   pong_run(&cfg0);
-  while (1)
+  while (pong_run(&cfg0))
   {
-    // pong_run(&cfg0);
-    // LCD_printString("Hello World!", 100, 100, 3, 3);
-    // LCD_Draw_Rect(140, i==0 ? 239 : i-1, 20, 20, 2, 1);
-    // LCD_Draw_Rect(140, i, 20, 20, 3, 1);
-    // LCD_Refresh(&cfg0);
-    // if (i < 239) {
-    //   i += 1;
-    // }
-    // else {
-    //   i = 0;
-    // }
+    ;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

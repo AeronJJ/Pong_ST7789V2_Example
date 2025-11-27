@@ -40,8 +40,6 @@ add_subdirectory(cmake/stm32cubemx)
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
-    ST7789V2_Driver_STM32L4/Core/Inc/Src/LCD.c
-    ST7789V2_Driver_STM32L4/Core/Inc/Src/ST7789V2_Driver.c
 )
 
 # Add sources to executable
@@ -50,6 +48,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/ST7789V2_Driver_STM32L4/Core/Src/LCD.c
     ${CMAKE_SOURCE_DIR}/ST7789V2_Driver_STM32L4/Core/Src/ST7789V2_Driver.c
     ${CMAKE_SOURCE_DIR}/Core/Src/pong.c
+    ${CMAKE_SOURCE_DIR}/Core/Src/engine.c
 )
 
 # Add include paths
