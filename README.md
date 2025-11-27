@@ -1,5 +1,5 @@
 ### How to run
-`git clone https://github.com/AeronJJ/Pong_ST7789V2_Example.git'
+`git clone https://github.com/AeronJJ/Pong_ST7789V2_Example.git`
 `git submodule init`
 `git submodule update`
 
